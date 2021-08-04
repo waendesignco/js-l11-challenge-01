@@ -15,6 +15,7 @@ const selectRandomImage = function (images) {
     //console.log(randomIndex);
     const randomImage = images[randomIndex];
     //console.log(randomImage);
+    displayImage(randomImage);
 };
 
 const displayImage = function (randomImage) {
